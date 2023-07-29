@@ -1,0 +1,40 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #340d5d;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(17, 5, 31), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+    }
+
+
+.navbar-bg{
+    background-color :#343a40 !important;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+
+}
+.bg-dark{
+
+        box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    }
+
+    .main-bg{
+        height: 100vh;
+
+    }
+
+    .nav-item a{
+        margin:10px 0px ;
+        font-size: 40px;
+        border: 1px solid gray;
+        border-radius: 10px;
+    }
+     .nav-link:hover{
+        background-color: aquamarine !important;
+    }
+    a{
+        transition: all 0.5s;
+        text-decoration: none !important;
+    }
